@@ -1,0 +1,128 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 0 15px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: none;
+    object-fit: cover; /* Ensures the images scale well */
+}
+
+.slideshow img:first-child {
+    display: block;
+}
+
+/* Countdown styles */
+.countdown-container {
+    margin-top: 40px;
+}
+
+.countdown-timer {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+h2{
+    color: #008000;
+} 
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-family: 'Great Vibes', cursive;
+  color: #008000;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .countdown-timer {
+        font-size: 20px;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        max-width: 600px; /* Smaller max width for mobile */
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .countdown-timer {
+        font-size: 18px;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        max-width: 400px; /* Even smaller max width for mobile */
+    }
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1; /* Adjust the background color if needed */
+  color: #333; /* Adjust text color if needed */
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #008000; /* Nigerian green */
+  font-size: 24px;
+}
+
+.social-icons a:hover {
+  color: #005500; /* Darker green on hover */
+}
